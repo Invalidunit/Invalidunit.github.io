@@ -1,0 +1,147 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://Invalidunit.github.io/repo/Depictions/Default/top.png",
+    "tintColor": "#B775AC",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "控制中心模块增强",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/Screenshot_01.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/Screenshot_02.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/Screenshot_03.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/Screenshot_04.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/Screenshot_05.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/Screenshot_06.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/Screenshot_07.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "已整合天气模块",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "特别拿出来是因为在 1211 上",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "安装 1.6.0 的时候媒体播放异常",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "ATWiiks",
+                    "title": "作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.6.0",
+                    "title": "最新版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "11.0 - 12.1.1",
+                    "title": "支持系统范围"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2019 年 12 月 22 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 40
+                },
+                {
+                    "URL": "https://Invalidunit.github.io/repo/CydiaIcon.png",
+                    "alignment": 1,
+                    "class": "DepictionImageView",
+                    "cornerRadius": 0,
+                    "height": 45,
+                    "width": 45
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.6.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "你猜",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ],
+}

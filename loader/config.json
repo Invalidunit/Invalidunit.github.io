@@ -1,0 +1,29 @@
+{
+    "bootstraps": [{
+        "bootstrap_apps": [
+            "/Applications/Sileo.app"
+        ],
+        "bootstrap_signature": {
+            "data": "*",
+            "hash": "*"
+        },
+        "bootstrap_status": "https://Invalidunit.github.io/loader/sileo/sileo.status",
+        "bootstrap_tar": "https://Invalidunit.github.io/loader/sileo/sileo.tar.lzma",
+        "bundle_identifier": "org.coolstar.SileoStore",
+        "icon": "https://Invalidunit.github.io/loader/icon/sileo.png",
+        "install_from_repo_uri": "sileo://package=${PACKAGE}",
+        "install_package": "org.coolstar.SileoStore",
+        "install_repo": "https://repo.theodyssey.dev/",
+        "label": "Sileo",
+        "min_cf_version": 1443
+    }],
+    "core_bootstrap_signature": {
+        "data": "*",
+        "hash": "*"
+    },
+    "core_bootstrap_tar": "https://Invalidunit.github.io/loader/sileo/procursus.tar.lzma",
+    "footer_notice": "test install sileo",
+    "min_loader_version": 1,
+    "version": 1
+}
+

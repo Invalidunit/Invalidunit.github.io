@@ -1,0 +1,29 @@
+{
+    "bootstraps": [{
+        "bootstrap_apps": [
+            "/Applications/Cydia.app"
+        ],
+        "bootstrap_signature": {
+            "data": "btQgqn4fp87BlfTp8XZpnFNMgQ4jHa4dOkDIipxJsLKXc2jfTv8vxmzH0C1ayCXq9NB+pra6Ro+oC11jGtx6AatwJvDnb2WMjNJPRDANAR1DHBpNDdQC7kD+EHJnhCXkTeVzRc0LtIC9nvhbI7riYOudWiIUzWi//OjGg3Po+djUc88qTONGB9wZrGZPDnUU1oM8uCDJMZP/7/bn39jsfg+Zr1JvAe0GI/CqDXzYD7aH6yittZn7zM7g+EANId1YT659K7lIDMKSbpcMaXHeYHZO6b/xGkOADbzxkojBPhCwB79gfEG9wlNFe7sPO+SvICmeVSZGNB0yWKK0qvYGEQ==",
+            "hash": "4n/88EIz/bBNA03/dScC6499KIkhIghWa/MxwbYXt1JuqV0bU62kLsbBP7e+YdFk6HQzI18s0W+2X9rUtL7QYA=="
+        },
+        "bootstrap_status": "https://assets.checkra.in/loader/ios/cydia/0d1e4d2daec4c4b528e918df6c20281d24a90950/cydia.status",
+        "bootstrap_tar": "https://assets.checkra.in/loader/ios/cydia/0d1e4d2daec4c4b528e918df6c20281d24a90950/cydia.tar.lzma",
+        "bundle_identifier": "com.saurik.Cydia",
+        "icon": "https://assets.checkra.in/loader/cydia.png",
+        "install_from_repo_uri": "cydia://url/https://cydia.saurik.com/api/share#?source=${REPO}&package=${PACKAGE}",
+        "install_package": "cydia",
+        "install_repo": "https://apt.bingner.com/",
+        "label": "Cydia",
+        "min_cf_version": 1443
+    }],
+    "core_bootstrap_signature": {
+        "data": "j43SaE9lq2wA9pqRjrUGQ868wpRhYrycvjYHSvtpJT5kyDCHb8CeMpDhnYxDmgnMv+Cong8nvOwpVz2RN7KgSMozbhVgGSOAu+E41HAi5m9tDEwnuxCyMC1GzMn39nJ3dBfZYMxUnMUbNxs9aF60A76cZghcLgFeMtjnMQUUI9i9oYRYvJW+iqXck8SmrfQDf2zrdoeLwOwiiGb/A1ajgiwXJBTD5q2sy2HunwS6JErHW559jA27D9V5jx1zpvOKZxKfUpscgIP8SWbJjz0dyhEwqnPlqgqhKMkkuysF+WHCW4CoIttQc3iKqzh8usDtriQcVMofPuYLOU3t5uYLGg==",
+        "hash": "q82sQiCpM8/NOtCK+9JuXnjLC2oWmw9c7DPk2+D9k48o4ZVCcpNwAHCk4YpDTS+P5iUp/mSC7rgnOtAO+wMydQ=="
+    },
+    "core_bootstrap_tar": "https://assets.checkra.in/loader/ios/core/0ea188ce9414b71eaa5d06e759acfa46366ec59d/strap.tar.lzma",
+    "footer_notice": null,
+    "min_loader_version": 1,
+    "version": 1
+}
+

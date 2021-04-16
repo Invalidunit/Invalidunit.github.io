@@ -1,0 +1,7 @@
+Origin: zhaonan's Repo2
+Label: zhaonan's Repo2
+Description: 这是一个自用源2
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
