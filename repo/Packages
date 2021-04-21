@@ -519,13 +519,13 @@ Package: com.nan.localhostssh
 Version: 0.2.6
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Pre-Depends: sed, openssh | openssh-server
+Pre-Depends: sed, openssh-server | openssh
 Depends: plutil | com.bingner.plutil | com.ericasadun.utilities
 Filename: debs/com.nan.localhostssh_0.2.6_iphoneos-arm.deb
 Size: 1972
-MD5sum: 44abe1d8d6001c21d586450228a0a567
-SHA1: 3a4d6194dfb30ecc98726a2b3b1999e3885b3a37
-SHA256: 36ddd453b6402c2646f1c070ff7a0c9da0b8cc0dce6c5c4600b67a0295d9727f
+MD5sum: 54bcca1ce96e4a49bf4bfafefef4c02e
+SHA1: 147d7ea9e0301a1788d78bb648db50abcbf7fbe1
+SHA256: dfffd4038aabdf2da2f203b0563161d401fe630c8e4012bfe7e0fc15e3a9552f
 Section: Addons
 Description: 仅为 iOS 本地 SSH 访问启用 2222 端口
 Author: zhaonan
@@ -720,9 +720,9 @@ Pre-Depends: firmware (>= 11.0)
 Depends: plutil | com.bingner.plutil
 Filename: debs/com.nan.smallccairplay_0.1.0_iphoneos-arm.deb
 Size: 1172
-MD5sum: 4840a2e467701acb85423120389239a5
-SHA1: 1855949af95c58719e7204c72ef25dcaa6ee1fb8
-SHA256: 3ce82bc8c29c85a86baab4d379d0fff8754ec518be28ed14ac5b20e299c83d54
+MD5sum: 16ca399f39265c905aa298e65cdff971
+SHA1: 1462f1012e7a0a02e66bb105ce601bd4a2c3eb1a
+SHA256: a2e66ed358fe8a60d603c742eee2dc902cbd87f4984759f09cb07add937e144e
 Section: System
 Description: 缩小控制中心的 AirPlay 模块，安装后未激活越狱也生效
 Author: zhaonan
