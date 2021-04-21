@@ -441,24 +441,6 @@ Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_terminal.png
 Name: ft
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.ft/js.json
 
-Package: com.nan.kalm.zh-Hans
-Version: 0.1.2
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: hi.my.name.is.ubik.kalm
-Conflicts: com.nan.kalm
-Filename: debs/com.nan.kalm.zh-Hans_0.1.2_iphoneos-arm.deb
-Size: 3624
-MD5sum: 8a7fec2d5d223c0416a40f2652e04caf
-SHA1: ec7031dfd799cc0b8e586aa850ab3e889564af6b
-SHA256: 0d595cb8542a7cd8b3a78739f8f313c7ae11e95521c3bc32e4e6c48b01d9d3a6
-Section: Localization
-Description: 为 Kalm 提供简体中文
-Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.kalm/image.png
-Name: zh-Hans for Kalm
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.kalm/js_zh_Hans.json
-
 Package: com.nan.libhooker-configurator.zh-Hans
 Version: 0.1.0
 Architecture: iphoneos-arm
