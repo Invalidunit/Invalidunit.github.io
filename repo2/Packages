@@ -285,40 +285,6 @@ Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
 Name: Bounce It
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.bounceit/js.json
 
-Package: com.nan.choicy
-Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
-Filename: debs/com.nan.choicy_1.1.2_iphoneos-arm.deb
-Size: 83184
-MD5sum: 6c8e770f50f107566486ffbfd4cf41d2
-SHA1: acf99bdca29f4f7891ab6260e3dd0d0a13070b23
-SHA256: 40d05f8dc4e123223feaf2559627d04614149ad80bdc470bb6c2ebb9b7b322d7
-Section: Tweaks
-Description: 多功能禁止注入
-Author: opa334
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.choicy/image.png
-Name: Choicy
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.choicy/js.json
-
-Package: com.nan.cocoatop64bit
-Version: 2.0.2-1+debug
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: firmware (>= 9.0)
-Filename: debs/com.nan.cocoatop64bit_2.0.2-1+debug_iphoneos-arm.deb
-Size: 151876
-MD5sum: c2625ff76c7ecc681593cbc23a0f98c8
-SHA1: 74c1f00eaf10acc0d9b5185b6ac1cf728f55209f
-SHA256: 941a18e545bc4b5e9fe305355471db44074ec233766798e244045d5ef3d98c58
-Section: Utilities
-Description: 一款查看当前进程,CPU使用率,查找高占用高耗电的 iOS 任务管理器
-Author: Domo
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cocoatop/image.png
-Name: CocoaTop 64-bit
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cocoatop/js.json
-
 Package: com.nan.colorizeios
 Version: 0.0.1-47+debug
 Architecture: iphoneos-arm
@@ -559,63 +525,6 @@ Description: 优雅设置,更好的设置
  ====================
 Author: Netskao
 Name: Elegant Settings
-
-Package: com.nan.filza
-Version: 3.7.7-16
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
-Provides: com.tigisoftware.filza (=3.7.7-16)
-Filename: debs/com.nan.filza_3.7.7-16_iphoneos-arm.deb
-Size: 10623532
-MD5sum: 65119d5cf09aa7c4d43d885eaa3ee8f5
-SHA1: 03d1bd48b558467666fdc7f265473574941d4be5
-SHA256: 41f2fb7cc2a8d09080f3936f41262462f082d669121980fe910e4dce04030c80
-Section: Utilities
-Description: iPhone, iPad, iPod Touch 的文件管理器
-Author: TIGI Software
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/image.png
-Name: Filza File Manager
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/js.json
-
-Package: com.nan.filza
-Version: 3.8.0-20
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
-Provides: com.tigisoftware.filza (=3.8.0-20)
-Filename: debs/com.nan.filza_3.8.0-20_iphoneos-arm.deb
-Size: 10198076
-MD5sum: ec7d85ac83f37066c720a14518c16af0
-SHA1: 7fa015aff37af363fe1087bc99e29267a7dbfb33
-SHA256: 2ed7a04feacc75455b88af8b428736bc8eeef29ce1837b0d6c5a1bf3b8506e31
-Section: Utilities
-Description: iPhone, iPad, iPod Touch 的文件管理器
-Author: TIGI Software
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/image.png
-Name: Filza File Manager
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/js.json
-
-Package: com.nan.filza
-Version: 3.8.0-24
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
-Provides: com.tigisoftware.filza (= 3.8.0-24)
-Filename: debs/com.nan.filza_3.8.0-24_iphoneos-arm.deb
-Size: 10227112
-MD5sum: b936becc516a95ba5f83e7cbbd30b7cf
-SHA1: ed677e67d5209c645df28e1bf0e8e2fd9833ba8e
-SHA256: 9dfe070e4878efc7a33cef593fe6e9a678517e02ddd04d51f58b348037a343bb
-Section: Utilities
-Description: iPhone, iPad, iPod Touch 的文件管理器
-Author: TIGI Software
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/image.png
-Name: Filza File Manager
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/js.json
 
 Package: com.nan.filza64bit
 Version: 3.7.7-16
@@ -1040,25 +949,6 @@ Author: zhaonan
 Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.respring.xr/image.png
 Name: iPhone XR 注销图标
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.respring.xr/js.json
-
-Package: com.nan.sentinel
-Version: 1.3.1
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.opa334.ccsupport
-Conflicts: com.megadev.sentinel
-Provides: com.megadev.sentinel (=1.3.0)
-Filename: debs/com.nan.sentinel_1.3.1_iphoneos-arm.deb
-Size: 77000
-MD5sum: 52f2b6e50067a51a9e19f8026a4519a0
-SHA1: 121d01a6ecceb9a4d2277b1b3915b239c726af71
-SHA256: 5a20c6f1e5b3029d76250f4ca579cf4ba313899b49f73a22e35d273769efd9ff
-Section: Tweaks
-Description: 在电量过低时休眠，防止丢失越狱环境
-Author: MegaDev
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.sentinel/image.png
-Name: Sentinel
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sentinel/js.json
 
 Package: com.nan.setwallpaper
 Version: 0.1.3
