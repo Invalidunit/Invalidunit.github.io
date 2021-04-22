@@ -71,21 +71,6 @@ Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.appdatamanager/image
 Name: Apps Manager
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.appdatamanager/js.json
 
-Package: com.nan.apppercent
-Version: 2.0.2
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, net.limneos.libbulletin
-Filename: debs/com.nan.apppercent_2.0.2_iphoneos-arm.deb
-Size: 17396
-MD5sum: d8689e42a055134ff6e0ff3ced5b0309
-SHA1: ff2011b6f75b6401980ea7a0f849932f4398b549
-SHA256: c2a5c4366f73655d4a11dd5d27664473fb39cb90c42baf553ed48f7611a6cd35
-Section: Tweaks
-Description: App 安装显示百分比进度
-Author: pxcex
-Name: App Percent
-
 Package: com.nan.appstoreplusplus
 Version: 0.9.12
 Architecture: iphoneos-arm
@@ -825,42 +810,6 @@ Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/image.pn
 Name: PullOver Pro
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/js.json
 
-Package: com.nan.qnawr
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: mobilesubstrate
-Conflicts: com.lnsspsd.qnawr
-Provides: com.lnsspsd.qnawr (=0.0.1)
-Filename: debs/com.nan.qnawr_0.0.1_iphoneos-arm.deb
-Size: 4548
-MD5sum: 90a5ee25971e0f4de5f002d1cdc814a6
-SHA1: 15bb6d138700f8ce23fbd67d5b7eafe0dffc3880
-SHA256: 3d963e3d8407d252ef0abf3d0739e662a3102ccba5f410bd26ae7336a615d343
-Section: Tweaks
-Description: 禁用回复时自动 @ 回复的人
-Author: LNSSPsd
-Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_qq.png
-Name: QQDoNotAtWhenReplying
-
-Package: com.nan.qpe
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: mobilesubstrate
-Conflicts: nop.lnsspsd.qpe
-Provides: nop.lnsspsd.qpe (=0.0.1)
-Filename: debs/com.nan.qpe_0.0.1_iphoneos-arm.deb
-Size: 3232
-MD5sum: 1191776722040a323b5514fe9d763b89
-SHA1: 09d52209fac9a3e5fee7f22b7accd61a4f7ac700
-SHA256: f1063abc2ef0e0570d0cd297f880e257d168d6f5af9896da6ed1eb83fa8dc7db
-Section: Tweaks
-Description: 始终显示绘图红包的 "开红包" 按钮
-Author: LNSSPsd
-Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_qq.png
-Name: QQ 绘图红包 Bypass
-
 Package: com.nan.qqanitirecallhook
 Version: 1.2
 Architecture: iphoneos-arm
@@ -879,23 +828,6 @@ Author: TouGBao
 Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_qq.png
 Name: QQanitiRecallHook
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.qqanitirecallhook/js.json
-
-Package: com.nan.qqprocrack
-Version: 2.3-3
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: mobilesubstrate
-Filename: debs/com.nan.qqprocrack_2.3-3_iphoneos-arm.deb
-Size: 127764
-MD5sum: b0ec773b270b4e8fddc103e39d98bca6
-SHA1: 29e282baaf887a3702ec85fe92a9d23fd147707d
-SHA256: ec4b84a06cf9e0cedb30c831929f8622cc334de1a3d709adedf37901210a2ad5
-Section: Tweaks
-Description: QQ 和 TIM 增强，抢红包，虚拟机型破解版
-Author: 7Loopy
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.qqprocrack/image.png
-Name: QQ Pro Crack
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.qqprocrack/js.json
 
 Package: com.nan.qqpurification
 Version: 1.4-1
@@ -1072,21 +1004,6 @@ Tag: role::hacker
 Author: Adam Leventhal
 Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_terminal.png
 Name: snaputil
-
-Package: com.nan.swipeselection
-Version: 1.5.6
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: mobilesubstrate
-Filename: debs/com.nan.swipeselection_1.5.6_iphoneos-arm.deb
-Size: 80048
-MD5sum: 9ccc96043e5e4e6477dd1156635706f7
-SHA1: 53b3bded4d09a3fe659b7037cb37e12875072441
-SHA256: da28a7324534efe352595cad5881f11e9397eeb2cfcdb288280a16599d58355a
-Section: Tweaks
-Description: 在键盘上左右滑动来控制打字光标,无需空格，无需 3D Touch
-Author: Kyle Howells
-Name: SwipeSelection
 
 Package: com.nan.tetherme8
 Version: 1.2.3~arm64e-1
