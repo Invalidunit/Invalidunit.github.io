@@ -230,10 +230,10 @@ Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: com.nan.resetfonts
 Filename: debs/com.nan.fonts.zh.xindixiawucha_0.1.0_iphoneos-arm.deb
-Size: 14439276
-MD5sum: 37cf2cacbf5d36aea9df3f5dde6d82d5
-SHA1: fc0094ccb29e902fdac86d97d62a6d6ad4958119
-SHA256: f75b1d76b3c2f0e9a05225315e177354176f7aab641dd3ea17e2dc5ce3054cbe
+Size: 14439676
+MD5sum: 4760b21d74f4fc1e17c82dfbc7fc175c
+SHA1: ec1942cf1c5a5e326d1c012897247794eaa6b85e
+SHA256: 731de56a072d36f6763a01e7927ab02eebf85c7451f3575eeb53495aa47d5384
 Section: Fonts
 Description: 感谢字由心雨分享的新蒂下午茶
 Author: 字由心雨
@@ -420,6 +420,24 @@ Author: 字由心雨
 Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fonts.png
 Name: マメロン-英文-14
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.fonts/mamelon/js_en.json
+Sponsor: zhaonan
+
+Package: com.nan.fonts14.en.xindixiawucha
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: com.nan.resetfonts, firmware (>=14.0), firmware (<<15.0)
+Filename: debs/com.nan.fonts14.en.xindixiawucha_0.1.0_iphoneos-arm.deb
+Size: 2910080
+MD5sum: a3f2df8322c897411c4d3902bcc58cbe
+SHA1: 8aa62e74fb189f236f6ebbe9009efa9adc36766d
+SHA256: cb59d54f7f9a48495ba0c2afc07a25d7dd225070d3e217fe59246a7f968045d0
+Section: Fonts (iOS14)
+Description: 感谢字由心雨分享的新蒂下午茶
+Author: 字由心雨
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fonts.png
+Name: 新蒂下午茶-英文-14
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.fonts/xindixiawucha/js_en.json
 Sponsor: zhaonan
 
 Package: com.nan.ft
