@@ -171,24 +171,6 @@ Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.dsar/image.png
 Name: Disable Sileo Auto Rewrite
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.dsar/js.json
 
-Package: com.nan.fh
-Version: 0.1.5
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Pre-Depends: sed, zip, unzip
-Depends: com.bingner.plutil | com.ericasadun.utilities
-Filename: debs/com.nan.fh_0.1.5_iphoneos-arm.deb
-Size: 2768
-MD5sum: d91d00e41d3ab0349fe87ab3c1225bd7
-SHA1: 5e0042eef6dec7cd88294fd171f0aee287cbf4b4
-SHA256: 920775feb349154599501e4e3bf97d7907dd6067b61ab291599c0eb057caf294
-Section: Terminal_Support
-Description: 一个备份还原字体的小脚本，支持多个备份，支持恢复外部导入的备份
-Author: zhaonan <Invalidunit@icloud.com>
-Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_terminal.png
-Name: fh
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.fh/js.json
-
 Package: com.nan.fonts.zh.haipaiqiangdiaoqingxia
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -695,16 +677,16 @@ Name: zh-Hans for Sentinel
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sentinel/js_zh_hans.json
 
 Package: com.nan.sileo.zh-Hans
-Version: 0.3.1-2
+Version: 0.3.1-3
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: org.coolstar.sileo | org.coolstar.sileobeta
 Replaces: org.coolstar.sileo, org.coolstar.sileobeta
-Filename: debs/com.nan.sileo.zh-Hans_0.3.1-2_iphoneos-arm.deb
-Size: 7456
-MD5sum: 5978592afc7b1dff2209e50cf06964d4
-SHA1: 5a9b988b36f2aad4f8366f1f6409755e007f93d7
-SHA256: be68c6f2e621c0968f05fa7a4887b67cd4fa30d45dee93b777f96f778a2b51f9
+Filename: debs/com.nan.sileo.zh-Hans_0.3.1-3_iphoneos-arm.deb
+Size: 7480
+MD5sum: 46891e8acd933ee12e22f7b5de645067
+SHA1: 1182a2839b1925fc3089432d4ceef997e52aaeae
+SHA256: 22efacfa14b54b066434b4f38d228741bbfd1918a2efae1a624994d331c039e6
 Section: Localization
 Description: 为 Sileo 提供简体中文
 Author: zhaonan
