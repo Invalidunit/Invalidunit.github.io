@@ -683,10 +683,10 @@ Maintainer: zhaonan
 Depends: org.coolstar.sileo | org.coolstar.sileobeta
 Replaces: org.coolstar.sileo, org.coolstar.sileobeta
 Filename: debs/com.nan.sileo.zh-Hans_0.3.1-3_iphoneos-arm.deb
-Size: 7480
-MD5sum: 46891e8acd933ee12e22f7b5de645067
-SHA1: 1182a2839b1925fc3089432d4ceef997e52aaeae
-SHA256: 22efacfa14b54b066434b4f38d228741bbfd1918a2efae1a624994d331c039e6
+Size: 7484
+MD5sum: a99e95bbf90a72ed664390351072d6ee
+SHA1: a8b1e702865c7006d49233d7400d78d40d900af5
+SHA256: dc0d6bfe568561da7402963824a279f9c28645e014a85c88875a211b510d7b57
 Section: Localization
 Description: 为 Sileo 提供简体中文
 Author: zhaonan
