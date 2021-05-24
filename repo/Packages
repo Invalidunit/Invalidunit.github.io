@@ -677,16 +677,16 @@ Name: zh-Hans for Sentinel
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sentinel/js_zh_hans.json
 
 Package: com.nan.sileo.zh-Hans
-Version: 0.3.1-3
+Version: 0.3.2
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: org.coolstar.sileo | org.coolstar.sileobeta
 Replaces: org.coolstar.sileo, org.coolstar.sileobeta
-Filename: debs/com.nan.sileo.zh-Hans_0.3.1-3_iphoneos-arm.deb
-Size: 7484
-MD5sum: a99e95bbf90a72ed664390351072d6ee
-SHA1: a8b1e702865c7006d49233d7400d78d40d900af5
-SHA256: dc0d6bfe568561da7402963824a279f9c28645e014a85c88875a211b510d7b57
+Filename: debs/com.nan.sileo.zh-Hans_0.3.2_iphoneos-arm.deb
+Size: 7572
+MD5sum: 10cd9f30ec96c3ec4fb815c159060355
+SHA1: 5166f3f9f5bb9e366f2426168407529d24903dad
+SHA256: 0fc1bea728b3c80056b0ce460cd22a4c29361fd2a90da6f3e2ac33d077113518
 Section: Localization
 Description: 为 Sileo 提供简体中文
 Author: zhaonan
