@@ -686,16 +686,16 @@ Maintainer: zhaonan
 Depends: mobilesubstrate
 Conflicts: kr.xsf1re.mcpatch
 Filename: debs/com.nan.mcpatch_0.0.1-2_iphoneos-arm.deb
-Size: 3592
-MD5sum: 66673fab8584c255d3f7544f4d7b6c16
-SHA1: bab5a83655d81d3760657976cd66a13769fc66f5
-SHA256: 3f0874a56207e7bd904ac817db3db5ca37124bfcd34caba78f232b862a78e297
+Size: 3600
+MD5sum: df19b6ca394ce3a35b86aae004fb5553
+SHA1: 60263729bb7982377283e474859c7c0ed6f83b48
+SHA256: af956198f0918a8b991600f650c477bc9ab3efc8401f418d2fe142a95b0d6b00
 Section: Developer
 Description: 允许iOS设备安装不可安装的描述文件
 Author: XsF1re
-Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Icon: https://Invalidunit.github.io/repo2/Depictions/Default/image_tweaks.png
 Name: MCPatch
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.mcpatch/js.json
+Sileodepiction: https://Invalidunit.github.io/repo2/Depictions/com.nan.mcpatch/js.json
 
 Package: com.nan.nodndbanner
 Version: 0.0.1

@@ -3,10 +3,10 @@ Version: 0.1.0
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Filename: debs/com.nan.aential_0.1.0_iphoneos-arm.deb
-Size: 1743288
-MD5sum: 8c2d5e9cbe880296291d0d86b89ed754
-SHA1: 00a57b11833c2f733f1c55e3d79ca5691cd41406
-SHA256: d792351077e9025734ae6c90edda0717b6ca103f1e8a96ced212336055535f4a
+Size: 1743260
+MD5sum: 8390f0997080cd3117ccf62855d3ddae
+SHA1: bdc6d3d7ae494eddf16aeb1736cbd5040b8ffe30
+SHA256: f124a3d4a60ee7d669a1e891158103912ca2d04684dd66b65106333578136746
 Section: Themes
 Description: 基于 Sential 修改的主题
 Author: zhaonan
@@ -38,15 +38,15 @@ Depends: net.limneos.bioprotectxs
 Replaces: net.limneos.bioprotectxs
 Filename: debs/com.nan.bioprotectxs.zh-hans_0.1.0_iphoneos-arm.deb
 Size: 4600
-MD5sum: fabb4f786c981d478d6c84c5dc040589
-SHA1: 25d8856063d65ff38774a0dad7661b24ebf1da6e
-SHA256: 28807ae4c00bf01fc6b65cb693e12a95299194a964593d78401e52012c3d6cfd
+MD5sum: d4886f17748c6e75f8aad9d22d992080
+SHA1: 616010e994df0ff25bb86624564216a8404c59c3
+SHA256: cfc5f7aa53a79dcfce6d73508c5087c64438871e5b0d71f2991c8e7242bd597d
 Section: Localization
 Description: 为 BioProtect XS 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.bioprotectxs/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/net.limneos.bioprotectxs/image.png
 Name: zh-Hans for BioProtect XS
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.bioprotectxs/js_zh_hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/net.limneos.bioprotectxs/js.json
 
 Package: com.nan.ccah
 Version: 0.1.1
@@ -56,14 +56,14 @@ Pre-Depends: firmware (>= 14.0)
 Depends: plutil | com.bingner.plutil
 Conflicts: com.nan.sccbav
 Filename: debs/com.nan.ccah_0.1.1_iphoneos-arm.deb
-Size: 1272
-MD5sum: 964dff4bda58d293280d5998140e1c3f
-SHA1: acd60c43f1c668f9ed82a40f57c01c2a4cdc697b
-SHA256: d6d15b919769f29351a0c95a67a13e27bf064ff91dcb3a3567e3c3a180b9cfc7
+Size: 1276
+MD5sum: e57236963236157012cc2ae35d0df177
+SHA1: 720309faf6865974d3c89a1021644af4e3e9b3fb
+SHA256: 1d546e44c5b8c8019bde94aff545507a53a220466542944392013d1291e51573
 Section: System
-Description: 将 iOS14 控制中心横屏时，亮度和音量的高度的占用 3 格改回 2 格，安装后未激活越狱也生效
+Description: 将 iOS14 控制中心横屏时，亮度和音量的高度的占用 3 格改回占用 2 格，安装后未激活越狱也生效
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.ccah/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fix.png
 Name: Change CC Auto Height
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.ccah/js.json
 
@@ -74,13 +74,15 @@ Maintainer: zhaonan
 Conflicts: cy+cpu.arm64
 Provides: cy+cpu.arm64
 Filename: debs/com.nan.cy+cpu.arm64_0.1.0_iphoneos-arm.deb
-Size: 736
-MD5sum: 1c7d62603b2138b830e403084d521c64
-SHA1: 750d854d607e14e20ebc4da154535b0f117c2124
-SHA256: 8d30f3234b3d695c25f3709959df1312a0cd537f0c6d41097e8b4123d812ec39
+Size: 844
+MD5sum: bce460a0f66d25f0fecc88fa44fbc16b
+SHA1: 18253b281f9befaab03c2edcdc52e8cc1355ab1e
+SHA256: 419280f898718bea86942ae9d30d70619136b38dca9ce05df18e2d41c91ef36c
 Section: System
-Description: 解决 cy+cpu.arm64 虚拟依赖报错
+Description: 虚拟依赖，用于解决 Chimera 环境下的 cy+cpu.arm64 虚拟依赖报错问题
+Tag: role::cydia
 Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fix.png
 Name: cy+cpu.arm64
 
 Package: com.nan.cydown.zh-hans
@@ -88,37 +90,35 @@ Version: 0.1.0
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: com.julioverne.cydown
-Conflicts: com.nan.cydown
 Replaces: com.julioverne.cydown
 Filename: debs/com.nan.cydown.zh-hans_0.1.0_iphoneos-arm.deb
-Size: 5312
-MD5sum: fe86c92626281fa162f561b34cabf86f
-SHA1: 1f63e0c5895d612db58390eab19ed025097a3f54
-SHA256: ec8048c734471e9a5bce94245357f6d9da754f2786673205048dc5f3f40761d8
+Size: 5300
+MD5sum: d05964b5f5980970fa8ed349efc761d7
+SHA1: 98eb3848355cefb1fcf1085b3eaf0789405462fb
+SHA256: f20f584fc2d7bbc3c72cebe13c3524c16f515c9f98df79eb451b9ba3624cc376
 Section: Localization
 Description: 为 CyDown 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.julioverne.cydown/image.png
 Name: zh-Hans for CyDown
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/js_zh_hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.julioverne.cydown/js.json
 
 Package: com.nan.darkshot.zh-Hans
 Version: 0.1.0
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: xyz.skitty.darkshot
-Conflicts: com.nan.darkshot
 Filename: debs/com.nan.darkshot.zh-Hans_0.1.0_iphoneos-arm.deb
-Size: 1556
-MD5sum: 3dc1b04bb85a7d1be384b3c8af496796
-SHA1: 51142ee7b9a917942d49b12ac6b96ba71944f17e
-SHA256: a82a6ca0be8c3f4eb890b7b5599f5f66f41b7eab7b8a35a614688fb3ed456114
+Size: 1536
+MD5sum: b221d5f9f13774c252bf8ed094aa2cca
+SHA1: cbe4b40abb0a0a01f17cd8574c3939e29a34c2f0
+SHA256: ffd97801b8ba682802ca7cdd9adb84e4727ac1d0a2d325e1ec4bac1cf52944a6
 Section: Localization
 Description: 为 DarkShot 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.darkshot/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/xyz.skitty.darkshot/image.png
 Name: zh-Hans for DarkShot
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.darkshot/js_zh_Hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/xyz.skitty.darkshot/js.json
 
 Package: com.nan.dpkg-fill
 Version: 0.1.2
@@ -126,16 +126,16 @@ Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: firmware (>=11.0), sed, coreutils
 Filename: debs/com.nan.dpkg-fill_0.1.2_iphoneos-arm.deb
-Size: 1644
-MD5sum: eb826354a096c82191b3f6aa12e07708
-SHA1: 71aabbd7c6d7b897316618733330c8d1eaec410d
-SHA256: cf7ee922a761703f33068a146a7b836d5b1561d4d6849eba7e9f9105dc4dce3c
+Size: 1640
+MD5sum: bf6765ed188431abc5f7338cf6d06fca
+SHA1: 790428effa5ce0f4dab99a28ce79310f4188321a
+SHA256: c59008ba835302579fc144d1887b3c00d22cfab29d966fcfc7542e19d9428907
 Section: Terminal_Support
 Description: 修补因缺少维护者和描述的报错信息
 Author: zhaonan <Invalidunit@icloud.com>
 Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_terminal.png
 Name: dpkg-fill
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.dpkgfill/js.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.dpkg-fill/js.json
 
 Package: com.nan.dpkg-fill-triggers
 Version: 0.1.0-b3
@@ -143,16 +143,16 @@ Architecture: iphoneos-arm
 Maintainer: zhaonan
 Pre-Depends: com.nan.dpkg-fill
 Filename: debs/com.nan.dpkg-fill-triggers_0.1.0-b3_iphoneos-arm.deb
-Size: 1056
-MD5sum: 2a6e7eb7d428ebf5e594a9b3cc28f9d9
-SHA1: 3ce890c0b54b555a165a4d64c99e23ebe594916a
-SHA256: c0cb45b5a01c88bb4b4ee0cc3e565fd19eaf383e5546a0b64dce725ceeae7407
+Size: 1052
+MD5sum: eaa04f9f55f04b7a789d74019d9fc0fe
+SHA1: 96ad2c7ccf97a1482a1cd4b5788540a981935cf3
+SHA256: a97bd42c1ecafa4fac356dd8566e7860806e9d46f74a82b767ae42d9b2085f55
 Section: Addons
 Description: 一个自动触发器，可以在插件安装时被触发，释放一个不受控制的脚本执行 dpkg-fill
 Author: zhaonan
 Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fix.png
 Name: dpkg-fill triggers
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/dpkgfill/js_triggers.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.dpkg-fill/js_triggers.json
 
 Package: com.nan.dsar
 Version: 0.2.4-2
@@ -161,9 +161,9 @@ Maintainer: zhaonan
 Depends: org.coolstar.sileo | org.coolstar.sileobeta
 Filename: debs/com.nan.dsar_0.2.4-2_iphoneos-arm.deb
 Size: 2064
-MD5sum: 282cd36db291e01b4d6c90f022ebef3c
-SHA1: 63a0ba29f53e1135041ad4b3eb5e410194c9d940
-SHA256: 1557c88c5c701656fc66284d390d0a63ea99a37a409f6908da78dd802e8c893e
+MD5sum: 0f5d4f549604ceed1e88788bb0eb2c44
+SHA1: 1d100199074c3e7cf1708336ea01017b90b1ef06
+SHA256: c8d42f5e7be22c337528eff8086b3e4761273cfebb7c31b4b6e39a252b72ff94
 Section: Scripting
 Description: 去除 Sileo 无法移除默认源的限制
 Author: zhaonan
@@ -448,54 +448,52 @@ Maintainer: zhaonan
 Depends: org.coolstar.libhooker-configurator
 Replaces: org.coolstar.libhooker-configurator
 Filename: debs/com.nan.libhooker-configurator.zh-Hans_0.1.0_iphoneos-arm.deb
-Size: 1732
-MD5sum: 9bbd49b7880168a0302bdb27da0ab3a1
-SHA1: 01a05839fed4820e386f830d24bed1b23150aae6
-SHA256: 3c59313bd8ff6121320e6d9b97046aac2d680f5109f63c641cd850d281876409
+Size: 1744
+MD5sum: b29110f670ff95188f33796b3790fc8e
+SHA1: 7bb5226955e0c97a98ca98070cd9b85f605f422a
+SHA256: 778abb966402720981c3f88274931708cf2f5d5f3db8f554b7b7834ded341e0b
 Section: Localization
 Description: 为 libhooker configurator 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.libhooker-configurator.zh-Hans/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/org.coolstar.libhooker-configurator/image.png
 Name: zh-Hans for libhooker-configurator
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.libhooker-configurator.zh-Hans/js.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/org.coolstar.libhooker-configurator/js.json
 
 Package: com.nan.little11.zh-Hans
 Version: 0.1.6
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: com.ryannair05.little11
-Conflicts: com.nan.little11
 Replaces: com.ryannair05.little11
 Filename: debs/com.nan.little11.zh-Hans_0.1.6_iphoneos-arm.deb
-Size: 2880
-MD5sum: 7e48dee13ac7689c92532171842fb5b6
-SHA1: 82067f7bc235ca43889dfbc85796dfb1e99ad0a8
-SHA256: 7af73f9be79ba4c84711d3cfa82e900d03e311deed67171d966cc681e645bbc4
+Size: 2876
+MD5sum: 2791bd04446b43958096e4bcaf2f5792
+SHA1: b25bddbd420c6adeccab60a8d9b3596c375f19ae
+SHA256: 1452e94ccf0299fdd7e125f5063aa24e023c91a0a25278b5e257b5d510be33d2
 Section: Localization
 Description: 为 Little11 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.little11/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.ryannair05.little11/image.png
 Name: zh-Hans for Little11
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.little11/js_zh_Hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.ryannair05.little11/js.json
 
 Package: com.nan.little12.zh-Hans
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: com.ryannair05.little12
-Conflicts: com.nan.little12
 Replaces: com.ryannair05.little12
-Filename: debs/com.nan.little12.zh-Hans_0.1.0_iphoneos-arm.deb
-Size: 2296
-MD5sum: ac5100fe63ca04cb0545fe099cf88488
-SHA1: 38ca4311252e2908970b5b6c65f8a336f68c29e7
-SHA256: 2056b637a3099428bc3a0c3934027710c26f8d22cf50f020740b5c31cfa5d54a
+Filename: debs/com.nan.little12.zh-Hans_0.1.1_iphoneos-arm.deb
+Size: 2324
+MD5sum: 3d7c4fa10b671daf9a3c8eeeea979980
+SHA1: 03277a9e31b0dd67634e48e6d1a36fb081ece8ce
+SHA256: 6d84166db6d6ac95600a65abf2cbde4e63f07c44d8317b355d478ee10860f2d8
 Section: Localization
 Description: 为 Little12 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.little12/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.ryannair05.little12/image.png
 Name: zh-Hans for Little12
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.little12/js_zh_Hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.ryannair05.little12/js.json
 
 Package: com.nan.localhostssh
 Version: 0.2.6
@@ -504,10 +502,10 @@ Maintainer: zhaonan
 Pre-Depends: sed, openssh-server | openssh
 Depends: plutil | com.bingner.plutil | com.ericasadun.utilities
 Filename: debs/com.nan.localhostssh_0.2.6_iphoneos-arm.deb
-Size: 1972
-MD5sum: 54bcca1ce96e4a49bf4bfafefef4c02e
-SHA1: 147d7ea9e0301a1788d78bb648db50abcbf7fbe1
-SHA256: dfffd4038aabdf2da2f203b0563161d401fe630c8e4012bfe7e0fc15e3a9552f
+Size: 1968
+MD5sum: 882585dc5ca707dd56508c697030c789
+SHA1: 3c85f233af84d7d9a88de02a710845bbd2214058
+SHA256: 30a9dacb0e5a6907459df1e4ea64eb3ab725badc899010ab0a19dfbea3aa3003
 Section: Addons
 Description: 仅为 iOS 本地 SSH 访问启用 2222 端口
 Author: zhaonan
@@ -537,10 +535,10 @@ Maintainer: zhaonan
 Pre-Depends: firmware (>= 11.0)
 Depends: plutil | com.bingner.plutil
 Filename: debs/com.nan.openccmm_0.1.3_iphoneos-arm.deb
-Size: 1172
-MD5sum: 855536772ef8817ebef5218d503ea240
-SHA1: a3a8fbe7f8ac52523d7cf2627916767f267a7ba4
-SHA256: 6b55aa60fdde80ba72e8a7f042643a6186730fa713a300fdf9ce0a236514c162
+Size: 1168
+MD5sum: 7815d3b0871591a3bd7b24f8833fe4ca
+SHA1: b0afd4cf41ec1597bbd60e190a2c98ba3eca3a91
+SHA256: 89900b80d581eea68dc1d0a7bbf8a948db9d8edf140c215c48e510d3e89ee8bb
 Section: System
 Description: 激活原生 iPhone 控制中心静音模块，安装后未激活越狱也生效
 Author: zhaonan
@@ -548,42 +546,23 @@ Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.openccmm/image.png
 Name: Activation CC MuteModule
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.openccmm/js.json
 
-Package: com.nan.perfectnetworkspeedinfo.zh-Hans
-Version: 0.1.0
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Depends: com.johnzaro.networkspeed13
-Conflicts: com.nan.perfectnetworkspeedinfo
-Filename: debs/com.nan.perfectnetworkspeedinfo.zh-Hans_0.1.0_iphoneos-arm.deb
-Size: 3496
-MD5sum: 626be09015427fdbf4b750af4575e394
-SHA1: 12f0df4a29c6ca2acec691e79afd003291a87912
-SHA256: 882932218b92651b9ca93f039a2fb9f9ba4a65a0316ac4f74fdff6d26f5577d4
-Section: Localization
-Description: 为 PerfectNetworkSpeedInfo 提供简体中文
-Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.perfectnetworkspeedinfo/image.png
-Name: zh-Hans for PerfectNetworkSpeedInfo
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.perfectnetworkspeedinfo/js_zh_Hans.json
-
 Package: com.nan.playing.zh-hans
 Version: 0.1.0
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: dev.hyper.playing
-Conflicts: com.nan.playing
 Replaces: dev.hyper.playing
 Filename: debs/com.nan.playing.zh-hans_0.1.0_iphoneos-arm.deb
-Size: 1980
-MD5sum: 65058cef40ed7d67ec3f61a3dcc58f67
-SHA1: 2d532a3caa4a62a25fcb9b7dcb413acfa5c9dfed
-SHA256: ccb6731db930593c9d015af024af535891caf5e61e87311aaa74d3dc1a6cb84d
+Size: 1968
+MD5sum: c8fd692e490d670009ee73dfd2530ff0
+SHA1: f332bbedb1abe4c2f8c5ae4aa6b458497a5ed076
+SHA256: be5b03d06d0f48ceff746cfe20958012446fe1a1b72231f2846b8d242c04795d
 Section: Localization
 Description: 为 Playing 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.playing/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/dev.hyper.playing/image.png
 Name: zh-Hans for Playing
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.playing/js_zh_Hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/dev.hyper.playing/js.json
 
 Package: com.nan.plutil
 Version: 0.2.1
@@ -608,18 +587,18 @@ Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: com.c1d3r.pulloverpro
-Conflicts: com.nan.pulloverpro, com.nan.pulloverpro-beta
+Replaces: com.c1d3r.pulloverpro
 Filename: debs/com.nan.pulloverpro.zh-Hans_0.1.1_iphoneos-arm.deb
-Size: 1960
-MD5sum: 79a448013dabd3c59e5966b04836687b
-SHA1: 42ec9cbbd7dc5cd6ffcd09525d42dede24dbdfce
-SHA256: ebda493a96ab892ff61f33024b87dec87b6865a14e2e0a25982d05a14cf82183
+Size: 1952
+MD5sum: 89bc55cf27938e006b5cdbc84d532c98
+SHA1: 98eff8edda98e481d3ec0920b5559c77a9726a04
+SHA256: 5168f5d7f982caac2de2a1ec1703e3289c31662c350710d988289da5585840b8
 Section: Localization
 Description: 为 PullOver Pro 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.c1d3r.pulloverpro/image.png
 Name: zh-Hans for PullOver Pro
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/js_zh_Hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.c1d3r.pulloverpro/js.json
 
 Package: com.nan.resetfonts
 Version: 0.1.3
@@ -646,10 +625,10 @@ Pre-Depends: firmware (>= 11.0)
 Depends: plutil | com.bingner.plutil
 Conflicts: com.nan.ccah
 Filename: debs/com.nan.sccbav_0.1.3_iphoneos-arm.deb
-Size: 1416
-MD5sum: ff52e3d03122c991a0907a0628b89f77
-SHA1: 0eed1e37b07771ff45b2f9cfcca0da46f5af0e3d
-SHA256: d0befd3a7b026737f1ab2f3f213793baecdc73acca14a2fc3272faf157de8357
+Size: 1412
+MD5sum: 89be7e27d509507bcc8708d9baa2603c
+SHA1: 10254e289f99ccba6155522ee1378b516c82fa12
+SHA256: 04494987675af542658a319cfc61baa3a8b8f2b8cdbb00db43e07b32b4e8202a
 Section: System
 Description: 将 iOS 控制中心的亮度和音量的高度占用改为 1 格，安装后未激活越狱也生效
 Author: zhaonan
@@ -662,19 +641,18 @@ Version: 0.1.2
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: com.megadev.sentinel
-Conflicts: com.nan.sentinel
 Replaces: com.megadev.sentinel
 Filename: debs/com.nan.sentinel.zh-hans_0.1.2_iphoneos-arm.deb
-Size: 1568
-MD5sum: 69d0eb5054fb6e42fe04dc84fe2a9acc
-SHA1: c6e149154505effac97a4b72bfa200fa5405bd0b
-SHA256: 70d75cd8739e8a3fd2d82555571e3e271d85a9059ee1f9e1f689710922db59d7
+Size: 1560
+MD5sum: 0b9a768bd862874be7e5835ab19d741a
+SHA1: 46fe3fbea81fc918059487e0b0e0cc04de21327b
+SHA256: 241c57bfc7ee59752fcd48a4c3e5c79c29cd1ff62535ce5eca233d10596edf6a
 Section: Localization
 Description: 为 Sentinel 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.sentinel/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.megadev.sentinel/image.png
 Name: zh-Hans for Sentinel
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sentinel/js_zh_hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.megadev.sentinel/js.json
 
 Package: com.nan.sileo.zh-Hans
 Version: 0.3.2
@@ -683,16 +661,16 @@ Maintainer: zhaonan
 Depends: org.coolstar.sileo | org.coolstar.sileobeta
 Replaces: org.coolstar.sileo, org.coolstar.sileobeta
 Filename: debs/com.nan.sileo.zh-Hans_0.3.2_iphoneos-arm.deb
-Size: 7572
-MD5sum: 10cd9f30ec96c3ec4fb815c159060355
-SHA1: 5166f3f9f5bb9e366f2426168407529d24903dad
-SHA256: 0fc1bea728b3c80056b0ce460cd22a4c29361fd2a90da6f3e2ac33d077113518
+Size: 7580
+MD5sum: 1791904f30b9dbcc22f12c2144cfb9c5
+SHA1: 3cfecb8c85d15c5675345f149101193336d9b7a3
+SHA256: 4898490b1dc80e1ea60aafbf1a885bf224d19012a6e480b9199f17ba08e7708c
 Section: Localization
 Description: 为 Sileo 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.sileo.zh-Hans/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/org.coolstar.sileo/image.png
 Name: zh-Hans for Sileo
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sileo.zh-Hans/js.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/org.coolstar.sileo/js.json
 
 Package: com.nan.smallccairplay
 Version: 0.1.0
@@ -702,9 +680,9 @@ Pre-Depends: firmware (>= 11.0)
 Depends: plutil | com.bingner.plutil
 Filename: debs/com.nan.smallccairplay_0.1.0_iphoneos-arm.deb
 Size: 1172
-MD5sum: 16ca399f39265c905aa298e65cdff971
-SHA1: 1462f1012e7a0a02e66bb105ce601bd4a2c3eb1a
-SHA256: a2e66ed358fe8a60d603c742eee2dc902cbd87f4984759f09cb07add937e144e
+MD5sum: 091aa978792c7e5deacc5d86bd3d9832
+SHA1: b6708fda7e4e1538e492a70a0607f4c9213f5d5c
+SHA256: 89df7e931c170db028818c7b8ed11a6371c0a5185e17b1c301069825da3730d0
 Section: System
 Description: 缩小控制中心的 AirPlay 模块，安装后未激活越狱也生效
 Author: zhaonan
@@ -738,13 +716,13 @@ Depends: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
 Filename: debs/com.nan.swipeextenderx.zh-hans_0.1.0_iphoneos-arm.deb
 Size: 3332
-MD5sum: 1a473a97a72118b861c2973f1df40825
-SHA1: ccddeba5c0a742f1404c7f2d898b78486db6960d
-SHA256: 44180035f5e15c106144fe8a037819a5f60c19f10679c534f43a6ed7cd32e67b
+MD5sum: 8addbf94081a4fc39bcc5ef183ae6d0f
+SHA1: cacff5a65b18d2cbc552f08560dc214742f1bea9
+SHA256: d4ca74865d7f9bce828e28ab9519c60dd4a461f4df016f01b4bb05520216ee71
 Section: Localization
 Description: 为 SwipeExtenderX 提供简体中文
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.swipeextenderx/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.qiop1379.swipeextenderx/image.png
 Name: zh-Hans for SwipeExtenderX
-Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.swipeextenderx/js_zh_Hans.json
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/com.qiop1379.swipeextenderx/js.json
 
