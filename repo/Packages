@@ -74,13 +74,12 @@ Maintainer: zhaonan
 Conflicts: cy+cpu.arm64
 Provides: cy+cpu.arm64
 Filename: debs/com.nan.cy+cpu.arm64_0.1.0_iphoneos-arm.deb
-Size: 844
-MD5sum: bce460a0f66d25f0fecc88fa44fbc16b
-SHA1: 18253b281f9befaab03c2edcdc52e8cc1355ab1e
-SHA256: 419280f898718bea86942ae9d30d70619136b38dca9ce05df18e2d41c91ef36c
+Size: 820
+MD5sum: a13ae9f5f39d2e47e04abe97d0eb1d13
+SHA1: 492df6475ab8dacea0a07bf6da422fea3c180b11
+SHA256: 032a430a48b1a2a0c6afb0519b64c53af8189415c106b446965492f9851d3577
 Section: System
 Description: 虚拟依赖，用于解决 Chimera 环境下的 cy+cpu.arm64 虚拟依赖报错问题
-Tag: role::cydia
 Author: zhaonan
 Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fix.png
 Name: cy+cpu.arm64
@@ -625,14 +624,14 @@ Pre-Depends: firmware (>= 11.0)
 Depends: plutil | com.bingner.plutil
 Conflicts: com.nan.ccah
 Filename: debs/com.nan.sccbav_0.1.3_iphoneos-arm.deb
-Size: 1412
-MD5sum: 89be7e27d509507bcc8708d9baa2603c
-SHA1: 10254e289f99ccba6155522ee1378b516c82fa12
-SHA256: 04494987675af542658a319cfc61baa3a8b8f2b8cdbb00db43e07b32b4e8202a
+Size: 1420
+MD5sum: a65c5c33624e23e1b8832f620c1f88aa
+SHA1: 938fe5a9852ff99074a44acf177fee58b1e1dc53
+SHA256: 4db60a060232447359c2549f5e73da8ee84ec5375ebd74e2785d7300f3b038ac
 Section: System
 Description: 将 iOS 控制中心的亮度和音量的高度占用改为 1 格，安装后未激活越狱也生效
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.sccbav/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fix.png
 Name: Small CC Brightness and Volume
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sccbav/js.json
 
@@ -679,14 +678,14 @@ Maintainer: zhaonan
 Pre-Depends: firmware (>= 11.0)
 Depends: plutil | com.bingner.plutil
 Filename: debs/com.nan.smallccairplay_0.1.0_iphoneos-arm.deb
-Size: 1172
-MD5sum: 091aa978792c7e5deacc5d86bd3d9832
-SHA1: b6708fda7e4e1538e492a70a0607f4c9213f5d5c
-SHA256: 89df7e931c170db028818c7b8ed11a6371c0a5185e17b1c301069825da3730d0
+Size: 1176
+MD5sum: 140fd04bc115c866b1289f3b118d872c
+SHA1: 47978dee28dfd284180c8b632ac7859b6fb82451
+SHA256: fef5fef39af6949ec24b1ef39dac917edb69f27e34002fb0736c88c1b91b6714
 Section: System
 Description: 缩小控制中心的 AirPlay 模块，安装后未激活越狱也生效
 Author: zhaonan
-Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.smallccairplay/image.png
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fix.png
 Name: Small CC AirPlay
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.smallccairplay/js.json
 
