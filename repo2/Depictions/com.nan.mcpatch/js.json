@@ -38,6 +38,11 @@
                     "class":"DepictionTableButtonView"
                 },
                 {
+                    "title":"安装 tvos15 描述文件",
+                    "action":"https://invalidunit.github.io/other/tvos15.mobileconfig",
+                    "class":"DepictionTableButtonView"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 1
                 },
