@@ -119,6 +119,24 @@ Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/xyz.skitty.d
 Name: zh-Hans for DarkShot
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.zh-Hans/xyz.skitty.darkshot/js.json
 
+Package: com.nan.disablesblockaftercrash
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 7.0)
+Depends: plutil | com.bingner.plutil
+Filename: debs/com.nan.disablesblockaftercrash_0.1.0_iphoneos-arm.deb
+Size: 1180
+MD5sum: 6995ae1091353affd32e831d0e601fb5
+SHA1: 2c36e2e69e607bd01b99d645d7104d22e12c4632
+SHA256: 663a5a92ebe9f8c27e19a2eb22c356be4cc3904aab74a5adad7f092e7a23aaba
+Section: System
+Description: 禁用 SpringBoard 崩溃后自动锁定的策略
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_fix.png
+Name: Disable SB Lock After Crash
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.disablesblockaftercrash/js.json
+
 Package: com.nan.dpkg-fill
 Version: 0.1.2
 Architecture: iphoneos-arm
