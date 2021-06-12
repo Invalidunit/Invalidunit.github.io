@@ -459,16 +459,16 @@ Name: ft
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.ft/js.json
 
 Package: com.nan.libhooker-configurator.zh-Hans
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: org.coolstar.libhooker-configurator
 Replaces: org.coolstar.libhooker-configurator
-Filename: debs/com.nan.libhooker-configurator.zh-Hans_0.1.0_iphoneos-arm.deb
-Size: 1744
-MD5sum: b29110f670ff95188f33796b3790fc8e
-SHA1: 7bb5226955e0c97a98ca98070cd9b85f605f422a
-SHA256: 778abb966402720981c3f88274931708cf2f5d5f3db8f554b7b7834ded341e0b
+Filename: debs/com.nan.libhooker-configurator.zh-Hans_0.1.1_iphoneos-arm.deb
+Size: 1752
+MD5sum: 93b2e9c72bc4668c8c75eb9942c1addd
+SHA1: 36646731c4938fef84c2fa30d86ec7de400885b3
+SHA256: b8b31e7d60a6a8afb17739b67a15b7fb9222054a8d3a41afe2715bcbff158f73
 Section: Localization
 Description: 为 libhooker configurator 提供简体中文
 Author: zhaonan
