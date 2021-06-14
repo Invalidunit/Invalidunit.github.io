@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.2.4",
+                    "text": "0.2.5",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.1.0",
+                    "text": "2.1-1",
                     "title": "支持 Sileo 版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2021 年 05 月 23 日",
+                    "text": "2021 年 06 月 15 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -92,6 +92,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复依然显示 No tfp0 / checkm8. Exiting",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.2.4",

@@ -172,15 +172,15 @@ Name: dpkg-fill triggers
 Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.dpkg-fill/js_triggers.json
 
 Package: com.nan.dsar
-Version: 0.2.4-2
+Version: 0.2.5
 Architecture: iphoneos-arm
 Maintainer: zhaonan
 Depends: org.coolstar.sileo | org.coolstar.sileobeta
-Filename: debs/com.nan.dsar_0.2.4-2_iphoneos-arm.deb
-Size: 2064
-MD5sum: 0f5d4f549604ceed1e88788bb0eb2c44
-SHA1: 1d100199074c3e7cf1708336ea01017b90b1ef06
-SHA256: c8d42f5e7be22c337528eff8086b3e4761273cfebb7c31b4b6e39a252b72ff94
+Filename: debs/com.nan.dsar_0.2.5_iphoneos-arm.deb
+Size: 2056
+MD5sum: 8b1dfaf5cab17fd404b241c02445103c
+SHA1: cd3bc4f708666d619d3e9d3e2a17a668737db890
+SHA256: 5e12a1651a4f63f05c609088dc415c02e068b4bdaf083bb785cd95b8c4a4d763
 Section: Scripting
 Description: 去除 Sileo 无法移除默认源的限制
 Author: zhaonan
